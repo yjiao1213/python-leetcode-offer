@@ -1,1 +1,1 @@
-# python-leetcode-offer
+# 使用python做剑指offer和leetcode上的题
