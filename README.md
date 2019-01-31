@@ -12,3 +12,4 @@
 思路是建一个栈，遍历一遍链表并把值放入栈里，遍历完之后从栈中pop出来并print
 #### [面试题7](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/03_01_DuplicationInArray.py)：根据前序和中序遍历重建二叉树 </br>
 思路是利用前序遍历的第一个value是根节点，而在中序遍历中分隔开了左右两个子树，因此可以利用递归的方法来进行求解
+#### [面试题8](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/08_NextNodeInBinaryTrees.py)：给一个树，找中序遍历的下一个节点 </br>
