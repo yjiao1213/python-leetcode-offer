@@ -23,7 +23,7 @@
 两个队列实现栈也是类似原理，输入时把元素放入有元素的队列1，输出时把队列1中元素放入另一个队列2中，当队列1长度为1时，输出的值就是最后一个元素
 #### [面试题10](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/10_Fibonacci.py)：斐波那契数列的第n项  </br>
 有三种解法，一种是最简单的三行递归：
-'''
+```python
     def fibonacci(self, n):
         if n == 0:
             return 0
@@ -31,6 +31,6 @@
             return 1
         else:
             return self.fibonacci(n-1) + self.fibonacci(n-2)
-'''
+```
 这种方法效率太低，因此可以用查表法或者自下而上的递归来减少重复计算，就是第二种方法 <\br>
 第三种方法是利用斐波那契的公式直接计算，时间复杂度是O(logn)，由于公式网上很容易就搜到了，就没有给出解法 <\br>
