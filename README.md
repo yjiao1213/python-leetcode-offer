@@ -36,8 +36,8 @@
 第三种方法是利用斐波那契的公式直接计算，时间复杂度是O(logn)，由于公式网上很容易就搜到了，就没有给出解法
 #### [面试题11](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/11_MinNumberInRotatedArray.py)：旋转数组的最小数字  </br>
 由于数组在旋转之前是有序的，因此可以使用二分查找使时间复杂度为O(logn) <\br>
-首先去两个指针left和right分别指向数组头和数组尾，然后计算中间的指针mid，可以分为两种情况： <\br>
-1. mid指向的数字大于left指向的数字，说明最小的数字在mid右边，那么left指向mid  <\br>
-2. mid指向的数字小于right指向的数字，说明最小的数字在左边的部分  <\br>
-left指向左边的数列，right指向的是右边的数列，那么当left和right相邻时就可以找到最小的数，为right指向的数字 <\br>
+首先去两个指针left和right分别指向数组头和数组尾，然后计算中间的指针mid，可以分为两种情况：
+1. mid指向的数字大于left指向的数字，说明最小的数字在mid右边，那么left指向mid  
+2. mid指向的数字小于right指向的数字，说明最小的数字在左边的部分  
+left指向左边的数列，right指向的是右边的数列，那么当left和right相邻时就可以找到最小的数，为right指向的数字  
 然后需要思考两种特殊情况，第一种就是当这个数列没有被旋转时，最右的数字为最小，第二种是当重复的数字太多，导致left=mid=right，这时需要遍历整个数组来找到最小值。
