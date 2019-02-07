@@ -41,6 +41,7 @@
 2. mid指向的数字小于right指向的数字，说明最小的数字在左边的部分  
 **left指向左边的数列，right指向的是右边的数列，那么当left和right相邻时就可以找到最小的数，为right指向的数字**
 然后需要思考两种特殊情况，第一种就是当这个数列没有被旋转时，最右的数字为最小，第二种是当重复的数字太多，导致left=mid=right，这时需要遍历整个数组来找到最小值。
-#### [面试题12](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/12_StringPathInMatrix.pyy)：矩阵中的路径  </br>
+#### [面试题12](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/12_StringPathInMatrix.py)：矩阵中的路径  </br>
 这里假设按照字符串的顺序寻找路径，解法为定义一个同样大小的bool类型数组用来保存节点状态（路径是否已被经过），然后利用回溯法求解  </br>
 遍历matrix寻找第一个字符所在位置。假设矩阵中某个格子的字符为ch并且这个格子将对应于路径上的第i个字符。如果路径上的第i个字符不是ch，那么这个格子不可能处在路径上的第i个位置。如果路径上的第i个字符正好是ch，那么往相邻的格子寻找路径上的第i+1个字符。除在矩阵边界上的格子外，其他各自都有4个相邻的格子。重复这个过程直到路径上的所有字符都在矩阵中找到相应的位置。
+#### [面试题13](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/13_RobotMove.py)：Robot Move  </br>
