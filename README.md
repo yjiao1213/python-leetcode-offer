@@ -46,3 +46,12 @@
 遍历matrix寻找第一个字符所在位置。假设矩阵中某个格子的字符为ch并且这个格子将对应于路径上的第i个字符。如果路径上的第i个字符不是ch，那么这个格子不可能处在路径上的第i个位置。如果路径上的第i个字符正好是ch，那么往相邻的格子寻找路径上的第i+1个字符。除在矩阵边界上的格子外，其他各自都有4个相邻的格子。重复这个过程直到路径上的所有字符都在矩阵中找到相应的位置。
 #### [面试题13](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/13_RobotMove.py)：Robot Move  </br>
 与上一题类似，使用回溯法来判断机器人能够走过的位置，这里需要计算能够到达的格子数量，因次代码会有略微的区别。
+#### [面试题14](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/14_CuttingRope.py)：剪绳子  </br>
+动态规划和贪心算法两种解:  </br>
+DP:使用自下而上的动态规划，并保存下来每次的结果，可以避免重复运算 </br>
+Greedy:把每一段绳子分为n个长度为3的部分时，结果最大，因此使用动态规划，每次截取3. </br>
+贪心的数学公式是：当n>=5时，2(n-2)>n，3(n-3)>n,因此意味着当分为3和2时，乘积的大小要大于不分割时候的值，又因为2(n-2)<3(n-3), 因此应该长度为3时剪一次  </br>
+#### [面试题15](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/15_NumberOf1InBinary.py)：二进制中1的个数  </br>
+主要是进行二进制的处理，注意输入的数字为负数时，要先进行转换再取值。书上给的思路是把当原数减一时，其实是把最右边的1置为0，那么再与原数做与操作就可以减掉一个1，循环直到原数为零。很tricky的方法  </br>
+#### [面试题16](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/16_Power.py)：数值的整数次方  </br>
+可以适用递归减少运算，当计算的当前的exponent时，只需要计算exponent/2时的值就可以，利用二进制的移位运算来减少运算时间。
