@@ -57,3 +57,8 @@ Greedy:把每一段绳子分为n个长度为3的部分时，结果最大，因�
 可以适用递归减少运算，当计算的当前的exponent时，只需要计算exponent/2时的值就可以，利用二进制的移位运算来减少运算时间。
 #### [面试题17](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/17_Print1ToMaxOfNDigits.py)：打印从1到最大的n位数  </br>
 注意大数问题，用字符串做加法，注意输出是不要输出数字前面的0
+
+Leetcode Top 100 Liked
+------
+#### [1.TwoSum](https://github.com/yjiao1213/python-leetcode-offer/blob/master/leetcode_top100_liked/Two_Sum.py)：Two Sum  </br>
+暴力法时间复杂度较高，用字典法时间复杂度为O(n)
