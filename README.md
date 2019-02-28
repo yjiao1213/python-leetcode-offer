@@ -55,3 +55,5 @@ Greedy:把每一段绳子分为n个长度为3的部分时，结果最大，因�
 主要是进行二进制的处理，注意输入的数字为负数时，要先进行转换再取值。书上给的思路是把当原数减一时，其实是把最右边的1置为0，那么再与原数做与操作就可以减掉一个1，循环直到原数为零。很tricky的方法  </br>
 #### [面试题16](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/16_Power.py)：数值的整数次方  </br>
 可以适用递归减少运算，当计算的当前的exponent时，只需要计算exponent/2时的值就可以，利用二进制的移位运算来减少运算时间。
+#### [面试题17](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/17_Print1ToMaxOfNDigits.py)：打印从1到最大的n位数  </br>
+注意大数问题，用字符串做加法，注意输出是不要输出数字前面的0
