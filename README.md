@@ -60,5 +60,5 @@ Greedy:把每一段绳子分为n个长度为3的部分时，结果最大，因�
 
 Leetcode Top 100 Liked
 ------
-#### [1.TwoSum](https://github.com/yjiao1213/python-leetcode-offer/blob/master/leetcode_top100_liked/Two_Sum.py)：Two Sum  </br>
+#### [1.TwoSum](https://github.com/yjiao1213/python-leetcode-offer/blob/master/leetcode_top100_liked/Two_Sum.py)  </br>
 暴力法时间复杂度较高，用字典法时间复杂度为O(n)
