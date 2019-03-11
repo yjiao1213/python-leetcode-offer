@@ -54,9 +54,28 @@ Greedy:把每一段绳子分为n个长度为3的部分时，结果最大，因�
 #### [面试题15](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/15_NumberOf1InBinary.py)：二进制中1的个数  </br>
 主要是进行二进制的处理，注意输入的数字为负数时，要先进行转换再取值。书上给的思路是把当原数减一时，其实是把最右边的1置为0，那么再与原数做与操作就可以减掉一个1，循环直到原数为零。很tricky的方法  </br>
 #### [面试题16](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/16_Power.py)：数值的整数次方  </br>
-可以适用递归减少运算，当计算的当前的exponent时，只需要计算exponent/2时的值就可以，利用二进制的移位运算来减少运算时间。
+可以适用递归减少运算，当计算的当前的exponent时，只需要计算exponent/2时的值就可以，利用二进制的移位运算来减少运算时间。   </br>
 #### [面试题17](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/17_Print1ToMaxOfNDigits.py)：打印从1到最大的n位数  </br>
-注意大数问题，用字符串做加法，注意输出是不要输出数字前面的0
+注意大数问题，用字符串做加法，注意输出是不要输出数字前面的0   </br>
+#### [面试题18](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/18_01_DeleteNodeInList.py)：O(1)时间删除链表结点  </br>
+注意区分3种情况 1.删除的是头节点 2.删除的是尾节点（这时需要从头开始遍历）3.删除的是其他节点（直接把这个结点的next的参数赋给这个结点，再删除下一个结点）   </br>
+#### [面试题19](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/19_RegularExpressionsMatching.py)：正则表达式匹配  </br>
+注意匹配星号时，要分为三种情况   </br>
+#### [面试题20](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/20_NumericStrings.py)：判断字符串是否表示数值  </br>
+把字符分为几部分分别进行判断   </br>
+#### [面试题21](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/21_ReorderArray.py)：奇数排在偶数前面  </br>
+用双指针分别从数组头和数组尾部进行遍历互换   </br>
+#### [面试题22](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/22_KthNodeFromEnd.py)：链表中倒数第k个结点  </br>
+两个指针，第二个指针等第一个指针走了k-1步时开始走，注意边界条件   </br>
+#### [面试题23](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/23_EntryNodeInListLoop.py)：链表中环的入口节点  </br>
+先判断是否有环，快慢指针，如果相遇，那么有环   </br>
+然后从相遇位置和链表头同时开始遍历，相遇时的点为入口节点   </br>
+#### [面试题24](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/24_ReverseList.py)：反转链表  </br>
+三指针法    </br>
+#### [面试题25](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/25_MergeSortedLists.py)：合并两个排序链表  </br>
+注意边界条件    </br>
+#### [面试题26](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/26_SubstructureInTree.py)：树的子结构  </br>
+树的遍历，注意特殊情况  <\br>
 
 Leetcode Top 100 Liked
 ------
