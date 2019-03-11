@@ -84,7 +84,12 @@ Greedy:把每一段绳子分为n个长度为3的部分时，结果最大，因�
 递归法，注意当数组剩下一行或者一列时应该特殊计算   </br>
 #### [面试题30](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/30_MinInStack.py)：包含min函数的栈  </br>
 需要建立两个栈，一个用来存数据，一个用来存当前最小的数    </br>
-
+#### [面试题31](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/31_StackPushPopOrder.py)：栈的压入、弹出序列  </br>
+压入序列逐个push进栈，每次进栈时都要判断是否能以弹出序列的顺序pop    </br>
+#### [面试题32](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/32_01_PrintTreeFromTopToBottom.py)：从上到下打印二叉树  </br>
+使用队列打印   </br>
+[按行打印二叉树](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/32_02_PrintTreesInLines.py)：需要建立两个变量储存当前行和下一行的节点数   </br>
+[之字形打印二叉树](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/32_03_PrintTreesInZigzag.py)：建立两个栈，并判断当前层的奇偶情况决定新的一层如何入栈   </br>
 
 Leetcode Top 100 Liked
 ------
