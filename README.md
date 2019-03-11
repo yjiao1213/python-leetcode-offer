@@ -75,7 +75,16 @@ Greedy:把每一段绳子分为n个长度为3的部分时，结果最大，因�
 #### [面试题25](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/25_MergeSortedLists.py)：合并两个排序链表  </br>
 注意边界条件    </br>
 #### [面试题26](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/26_SubstructureInTree.py)：树的子结构  </br>
-树的遍历，注意特殊情况  <\br>
+树的遍历，注意特殊情况   </br>
+#### [面试题27](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/27_MirrorOfBinaryTree.py)：二叉树的镜像  </br>
+递归修改左子树和右子树的位置，由于是镜像，因此需要修改每一个左右子树的位置就可以    </br>
+#### [面试题28](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/28_SymmetricalBinaryTree.py)：对称的二叉树  </br>
+递归进行比较，注意在递归比较时传入的参数，应该是左节点的左子树和右节点的右子树进行比较   </br>
+#### [面试题29](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/29_PrintMatrix.py)：顺时针打印矩阵  </br>
+递归法，注意当数组剩下一行或者一列时应该特殊计算   </br>
+#### [面试题30](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/30_MinInStack.py)：包含min函数的栈  </br>
+需要建立两个栈，一个用来存数据，一个用来存当前最小的数    </br>
+
 
 Leetcode Top 100 Liked
 ------
