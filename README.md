@@ -35,7 +35,7 @@
 这种方法效率太低，因此可以用查表法或者自下而上的递归来减少重复计算，就是第二种方法  </br>
 第三种方法是利用斐波那契的公式直接计算，时间复杂度是O(logn)，由于公式网上很容易就搜到了，就没有给出解法
 #### [面试题11](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/11_MinNumberInRotatedArray.py)：旋转数组的最小数字  </br>
-由于数组在旋转之前是有序的，因此可以使用二分查找使时间复杂度为O(logn) <\br>
+由于数组在旋转之前是有序的，因此可以使用二分查找使时间复杂度为O(logn) </br>
 首先去两个指针left和right分别指向数组头和数组尾，然后计算中间的指针mid，可以分为两种情况：
 1. mid指向的数字大于left指向的数字，说明最小的数字在mid右边，那么left指向mid  
 2. mid指向的数字小于right指向的数字，说明最小的数字在左边的部分  
