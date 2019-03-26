@@ -90,7 +90,8 @@ Greedy:把每一段绳子分为n个长度为3的部分时，结果最大，因�
 使用队列打印   </br>
 [按行打印二叉树](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/32_02_PrintTreesInLines.py)：需要建立两个变量储存当前行和下一行的节点数   </br>
 [之字形打印二叉树](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/32_03_PrintTreesInZigzag.py)：建立两个栈，并判断当前层的奇偶情况决定新的一层如何入栈   </br>
-
+#### [面试题33](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/33_SquenceOfBST.py)：二叉树的后序遍历  </br>
+#### [面试题34](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/34_PathInTree.py)：二叉树中和为某一值的路径  </br>
 Leetcode Top 100 Liked
 ------
 #### [1.TwoSum](https://github.com/yjiao1213/python-leetcode-offer/blob/master/leetcode_top100_liked/Two_Sum.py)  </br>
