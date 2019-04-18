@@ -98,7 +98,7 @@ Greedy:把每一段绳子分为n个长度为3的部分时，结果最大，因�
 #### [面试题38](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/38_StringPermutation.py)：字典序打印字符串中字符  </br>
 #### [面试题39](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/39_MoreThanHalfNumber.py)：找出出现次数超过一半的数字  </br>
 #### [面试题40](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/40_KLeastNumbers.py)：最小的k个数  </br>
-#### [面试题41](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/42_GreatestSumOfSubarrays.py)：连续子数组最大和  </br>
+#### [面试题42](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/42_GreatestSumOfSubarrays.py)：连续子数组最大和  </br>
 
 Leetcode Top 100 Liked
 ------
