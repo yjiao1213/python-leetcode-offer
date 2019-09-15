@@ -91,14 +91,23 @@ Greedy:把每一段绳子分为n个长度为3的部分时，结果最大，因�
 [按行打印二叉树](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/32_02_PrintTreesInLines.py)：需要建立两个变量储存当前行和下一行的节点数   </br>
 [之字形打印二叉树](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/32_03_PrintTreesInZigzag.py)：建立两个栈，并判断当前层的奇偶情况决定新的一层如何入栈   </br>
 #### [面试题33](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/33_SquenceOfBST.py)：二叉树的后序遍历  </br>
+根据二叉搜索树左子树的值小于根节点的值，右子树的值大于根节点的值的性质求解  </br>
 #### [面试题34](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/34_PathInTree.py)：二叉树中和为某一值的路径  </br>
+回溯法遍历整个树  </br>
 #### [面试题35](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/35_CopyComplexList.py)：复杂链表的复制  </br>
+比较简单的方法就是使用哈希表，遍历两次链表。另一种省空间的方法是把新生成的节点放在旧的结点后面，最后再分离出两个链表。  </br>
 #### [面试题36](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/36_ConvertBinarySearchTree.py)：二叉搜索树与双向链表  </br>
+对二叉树做中序遍历，并在遍历时修改指针方向即可  </br>
 #### [面试题37](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/37_SerializeBinaryTrees.py)：序列化和反序列化二叉树  </br>
+前序遍历 </br>
 #### [面试题38](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/38_StringPermutation.py)：字典序打印字符串中字符  </br>
+递归法，固定第一位可能的字符，然后递归排列后面位数的字符  <\br>
 #### [面试题39](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/39_MoreThanHalfNumber.py)：找出出现次数超过一半的数字  </br>
+利用哈希表做计数  <\br>
 #### [面试题40](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/40_KLeastNumbers.py)：最小的k个数  </br>
+利用二分的思想，可以达到O(n)的复杂度，如果不能原地修改，可以维护一个k长度的堆，时间复杂度为O(nlogk)  </br>
 #### [面试题42](https://github.com/yjiao1213/python-leetcode-offer/blob/master/%E5%89%91%E6%8C%87offer66%E9%A2%98_pyhton%E5%AE%9E%E7%8E%B0/42_GreatestSumOfSubarrays.py)：连续子数组最大和  </br>
+动态规划的方法
 
 Leetcode Top 100 Liked
 ------
