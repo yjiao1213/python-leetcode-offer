@@ -113,3 +113,5 @@ Leetcode Top 100 Liked
 ------
 #### [1.TwoSum](https://github.com/yjiao1213/python-leetcode-offer/blob/master/leetcode_top100_liked/Two_Sum.py)  </br>
 暴力法时间复杂度较高，用字典法时间复杂度为O(n)
+#### [2.Add Two Numbers](https://github.com/yjiao1213/python-leetcode-offer/blob/master/leetcode_top100_liked/Add_two_numbers.py)  </br>
+python使用正常方法超时，因此这里取巧使用字符串，然后把字符串转化为数字进行相加，最后跑出结果
