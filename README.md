@@ -117,3 +117,5 @@ Leetcode Top 100 Liked
 python使用正常方法超时，因此这里取巧使用字符串，然后把字符串转化为数字进行相加，最后跑出结果
 #### [3.Longest Substring Without Repeating Characters](https://github.com/yjiao1213/python-leetcode-offer/blob/master/leetcode_top100_liked/Longest_Substring_Without_Repeating_Characters.py)  </br>
 最长子序列问题，动态规划的方法，注意边界条件的选取。
+#### [4.Median_of_Two_Sorted_Arrays](https://github.com/yjiao1213/python-leetcode-offer/blob/master/leetcode_top100_liked/Median_of_Two_Sorted_Arrays.py)  </br>
+题目要求log(n)级别的时间复杂度，因此需要使用二分查找的思想，由于两个数组都是有序排列，因此只需要保证i+j=(m+n+1)/2，此时只需要保证两个数组左边的数都小于右边的数，就可找出中位数。
